@@ -1,0 +1,323 @@
+{
+  "intents": [
+    {
+      "tag": "mood",
+      "patterns": [
+        "How are you",
+        "How have you been",
+        "How was your day",
+        "How is your day",
+        "Are you happy",
+        "How are you doing?",
+        "How are ya",
+        "How has your day been"
+      ],
+      "responses": [
+        "I'm great! Thanks for asking.",
+        "I am having a wonderful day!"
+      ],
+      "match_type": "partial"
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Good day",
+        "Whats up",
+        "hey",
+        "whatsup",
+        "hiya",
+        "good morning",
+        "good evening",
+        "howdy",
+        "nice to meet you",
+        "nice to meet you too",
+        "nice to meet you Megamind"
+      ],
+      "responses": [
+        "Hello {name}! How are you?",
+        "Good to see you again {name}!",
+        "Hi {name}, how can I help?",
+        "Nice to meet you {name}! How are you?"
+      ],
+      "match_type": "full"
+    },
+    {
+      "tag": "myName",
+      "patterns": [
+        "can you remember my name",
+        "what is my name",
+        "whats my name",
+        "can you tell me my name",
+        "do you remember my name",
+        "say my name"
+      ],
+      "responses": [
+        "Of course i remember your name {name}!",
+        "You are {name}!",
+        "Hello {name}! I still remember!"
+      ],
+      "match_type": "full"
+    },
+    {
+      "tag": "myFood",
+      "patterns": [
+        "Do you remember what my favourite food is",
+        "Do you remember what my favourite food was",
+        "can you remember my favourite food",
+        "what is my favourite food",
+        "whats my favourite food",
+        "can you tell me my favourite food",
+        "do you remember my favourite food",
+        "say my favourite food"
+      ],
+      "responses": [
+        "Of course i remember your favourite food! It's {food}!",
+        "Your favourite food is {food}!",
+        "{food}! I still remember!"
+      ],
+      "match_type": "full"
+    },
+    {
+      "tag": "myColour",
+      "patterns": [
+        "Do you remember what my favourite colour is",
+        "Do you remember what my favourite colour was",
+        "can you remember my favourite colour",
+        "what is my favourite colour",
+        "whats my favourite colour",
+        "can you tell me my favourite colour",
+        "do you remember my favourite colour",
+        "say my favourite colour"
+      ],
+      "responses": [
+        "Of course i remember your favourite colour! It's {colour}!",
+        "Your favourite colour is {colour}!",
+        "{colour}! I still remember!"
+      ],
+      "match_type": "full"
+    },
+    {
+      "tag": "fact",
+      "patterns": [
+        "fact",
+        "tell me a fact"
+      ],
+      "responses": [
+        "A mix between a Chihuahua and a dachshund is called a 'chiweenie.'",
+        "There are no seagulls in Hawaii.",
+        "Even though dragonflies have six legs, they cannot walk.",
+        "Gummy bears were originally called 'dancing bears.'",
+        "Sea otters have the thickest fur of any mammal, at 1 million hairs per square inch.",
+        "The bird on the Twitter logo is named 'Larry. He was named after the basketball player Larry Bird, who played for the Boston Celtics.",
+        "The term 'coccyx' (also known as your tailbone) is derived from the Greek word 'cuckoo' ('kokkux') because the curved shape of the tailbone resembles the bird's beak.",
+        "A baby has around 30,000 taste buds. They are not just on the tongue but also on the sides, back, and roof of the mouth. Adults have about 10,000.",
+        "In one survey, three out of four people admitted to sharing an ice cream cone with their pet.",
+        "When humans take a breath, they replace only 15% of the air in their lungs with fresh air. When dolphins take a breath, they replace 90% of the air in their lungs with fresh air."
+      ],
+        "match_type": "partial"
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "joke",
+        "tell me a joke"
+      ],
+      "responses": [
+        "What do you call it when a snowman has a temper tantrum? A meltdown.",
+        "Why are elevator jokes so good? Because they work on so many levels.",
+        "What do you call advice from a cow? Beef Tips.",
+        "Why are pediatricians always so grumpy? They have little patients.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field.",
+        "Why did the melon jump into the lake? It wanted to be a water-melon.",
+        "What did the duck say when it bought lipstick? 'Put it on my bill.'",
+        "What do you call a pig that does karate? A pork chop.",
+        "What has a bed that you can’t sleep in? A river.",
+        "Why were the teacher’s eyes crossed? She couldn’t control her pupils."
+      ],
+        "match_type": "partial"
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "What can you do",
+        "what should we do",
+        "What else can you do",
+        "What should I ask you",
+        "What else should i ask you",
+        "I already did that",
+        "i just did that",
+        "What can I ask you",
+        "What is something you can do",
+        "what is something really cool you can do"
+      ],
+      "responses": [
+        "I can learn more about you! Tell me more about yourself.",
+        "I can tell you about myself! Ask me a question.",
+        "I can tell you a joke! Try asking me for one.",
+        "I can tell you an interesting fact! Try asking me for one.",
+        "I can have simple conversations! How has your day been?",
+        "I can tell you the weather! Try asking me for the weather."
+      ],
+        "match_type": "partial"
+    },
+    {
+      "tag": "colour",
+      "patterns": [
+        "colour",
+        "whats your fave colour",
+        "whats your facourite colour",
+        "what is your fave colour",
+        "what is your favourite colour",
+        "Do you have a fave colour",
+        "Do you have a favourite colour",
+        "What is the best colour",
+        "whats the best colour"
+      ],
+      "responses": [
+        "I like the colour green! Whats yours?",
+        "My favourite colour is green! Whats yours?",
+        "Hmmm, I think i like green the most! Whats your favourite colour?"
+      ],
+      "match_type": "full"
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "food",
+        "whats your fave food",
+        "whats your favourite food",
+        "what is your fave food",
+        "what do you like to eat",
+        "what is your favourite food",
+        "Do you have a fave food",
+        "Do you have a favourite food",
+        "What is the best food",
+        "whats the best food"
+      ],
+      "responses": [
+        "I like spaghetti! Whats yours?",
+        "My favourite food is spaghetti! Whats yours?",
+        "Hmmm, I think i like spaghetti the most! Whats yours?"
+      ],
+      "match_type": "full"
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "Tell me the weather",
+        "What is the weather",
+        "can you tell me the weather",
+        "Weather",
+        "Whats the weather going to be like today?",
+        "Can you tell me what the weather will be like?",
+        "Whats the weather like today"
+      ],
+      "responses": [
+        "Look outside!"
+      ],
+        "match_type": "partial"
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"
+      ],
+      "responses": [
+        "You can call me Megamind!"
+      ],
+      "match_type": "partial"
+    },
+    {
+      "tag": "good",
+      "patterns": [
+        "Good",
+        "Happy",
+        "Glad",
+        "Well",
+        "Nice",
+        "Great",
+        "Ok",
+        "Not bad",
+        "splended"
+      ],
+      "responses": [
+        "Thats great to hear!",
+        "Glad you are doing well!"
+      ],
+      "match_type": "partial"
+    },
+    {
+      "tag": "bad",
+      "patterns": [
+        "Bad",
+        "Sad",
+        "Terrible",
+        "Depressed",
+        "Angry",
+        "Not good",
+        "Unhappy",
+        "Hateful"
+      ],
+      "responses": [
+        "Hope your day gets better!",
+        "Thats not good to hear, hope your mood improves!"
+      ],
+      "match_type": "partial"
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Ha",
+        "Haha good one",
+        "Haha that was funny",
+        "That was funny",
+        "That was interesting",
+        "interesting",
+        "Funny"
+      ],
+      "responses": [
+        "Thanks!",
+        "Thank you!"
+      ],
+        "match_type": "partial"
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "see you",
+        "bye bye",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Bye",
+        "Have a Good day",
+        "talk to you later",
+        "ttyl",
+        "i got to go",
+        "gtg"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon"
+      ],
+      "match_type": "partial"
+    }
+  ]
+}
